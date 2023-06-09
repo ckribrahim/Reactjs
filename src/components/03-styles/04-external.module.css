@@ -1,0 +1,10 @@
+.externalModuleStyling{
+    color: mediumspringgreen;
+    padding: 20px;
+    border: 2px solid blueviolet;
+}
+
+.title{
+    color: mediumturquoise;
+    font-style: italic;
+}

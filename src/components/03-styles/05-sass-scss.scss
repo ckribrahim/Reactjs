@@ -1,0 +1,33 @@
+$clr-title: rgb(16,214,16);
+$clr-scnd: rgb(0,5,155);
+
+
+
+.sass-scss{
+    h2{
+        color: $clr-title;
+    }
+
+    #heading{
+        font-style: italic;
+    }
+    .list{
+        text-align: center;
+        list-style: none;
+    }
+
+    li{
+        color: $clr-title;
+        font-style: italic;
+    }
+
+    .art1{
+        color: $clr-scnd;
+    }
+    .art2{
+        color: $clr-title;
+    }
+    .art3{
+        color: $clr-scnd;
+    }
+}
