@@ -26,6 +26,9 @@ import Events from './components/11-events/event';
 // Style Import
 import './assets/scss/style.scss'
 import ProductShop from './components/12-product-shop/product-shop';
+import State from './components/13-usestate/01-state';
+import Counter1 from './components/14-counter-1.js/counter1';
+import Birthday from './components/15-birthday/birthday';
 
 
 const profileCardData ={
@@ -97,9 +100,15 @@ export default function App() {
              <ReactIcons/>
              <MaterialIcons/>
              <Events/>
+             <ProductShop/>
+             <State/>
+             
+             <Counter1/>
              
              */} 
-             <ProductShop/>
+            <Birthday/>
+             
+             
 
              
 
