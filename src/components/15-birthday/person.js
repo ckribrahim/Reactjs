@@ -4,22 +4,24 @@ import {Delete} from '@mui/icons-material'
 
 const Person = (props) => {
 
-    const {} = props;
+    const {id, name, age,image} = props;
 
   return (
-    <Card className='my-3'>
-        <Row>
-            <Col sm={4}>
-                <Card.Img src={require('../../assets/img/person3.jpg')}/>
-            </Col>
-            <Col sm={8}>
+    <Card className='my-3' style={{width: '200px'}} >
+       
+            
+                <Card.Img src={require(`../../assets/img/${image}`)}/>
+            
+            
                 <Card.Body>
-                    <Card.Title>Svetlana Gevorgyan</Card.Title>
-                    <Card.Text>Age 27</Card.Text>
-                    <Delete/>
+                    <Card.Title>{name}</Card.Title>
+                    <Card.Text>Age: {age}</Card.Text>
+                    <Delete style={{cursor: 'pointer'}}
+                    onClick = {()=>props.deletePerson(id)}
+                    />
                 </Card.Body>
-            </Col>
-        </Row>
+          
+        
     </Card>
   )
 

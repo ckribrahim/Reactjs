@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Apples, { Bananas1, Orange } from './components/01-my-house';
 import Jsx1 from './components/02-jsx/01-jsx';
 import Jsx2 from './components/02-jsx/02-jsx';
@@ -29,6 +29,8 @@ import ProductShop from './components/12-product-shop/product-shop';
 import State from './components/13-usestate/01-state';
 import Counter1 from './components/14-counter-1.js/counter1';
 import Birthday from './components/15-birthday/birthday';
+import UseEffect from './components/16-useeffect/useeffect';
+import { Button } from 'react-bootstrap';
 
 
 const profileCardData ={
@@ -42,8 +44,12 @@ const profileCardData ={
     ]
 }
 
+   
+
 
 export default function App() {
+
+    const [show, setShow] = useState(true);
     return (
         <>
         {/* <Bananas1 />
@@ -104,9 +110,14 @@ export default function App() {
              <State/>
              
              <Counter1/>
+             <Birthday/>
              
              */} 
-            <Birthday/>
+
+             <Button onClick={()=>setShow(prev=> !prev)}>use Effect Hook'unu Gizle</Button>
+
+             { show && < UseEffect/>}
+            
              
              
 
