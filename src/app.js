@@ -31,6 +31,9 @@ import Counter1 from './components/14-counter-1.js/counter1';
 import Birthday from './components/15-birthday/birthday';
 import UseEffect from './components/16-useeffect/useeffect';
 import { Button } from 'react-bootstrap';
+import Clock3 from './components/17-digital-clock/clock-3';
+import FilterList from './components/18-filter-list/filter-list';
+import UseRef from './components/19-useref/useref';
 
 
 const profileCardData ={
@@ -111,12 +114,21 @@ export default function App() {
              
              <Counter1/>
              <Birthday/>
-             
-             */} 
 
              <Button onClick={()=>setShow(prev=> !prev)}>use Effect Hook'unu Gizle</Button>
 
              { show && < UseEffect/>}
+
+               <Clock3 textColor ='red' bgColor='blue'/>
+                <FilterList/>
+             
+             */} 
+             <UseRef/>
+
+            
+             
+
+           
             
              
              
