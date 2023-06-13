@@ -34,20 +34,23 @@ import { Button } from 'react-bootstrap';
 import Clock3 from './components/17-digital-clock/clock-3';
 import FilterList from './components/18-filter-list/filter-list';
 import UseRef from './components/19-useref/useref';
+import ClassTurundeComponentler from './components/20-component-turleri/class-turunde-componentler';
+import FonksiyonTurunde from './components/20-component-turleri/fonksiyonturunde-componentler';
+import Fetch from './components/21-fetch/01-fetch';
 
 
-const profileCardData ={
+const profileCardData = {
     name: 'Simon',
     location: 'Langley, Virginia',
     image: 'profile.jpg',
     statistics: [
-        {title: 'Shot', stat: 7},
-        {title: 'Follower', stat: 313},
-        {title: 'Following', stat: 571}
+        { title: 'Shot', stat: 7 },
+        { title: 'Follower', stat: 313 },
+        { title: 'Following', stat: 571 }
     ]
 }
 
-   
+
 
 
 export default function App() {
@@ -55,7 +58,7 @@ export default function App() {
     const [show, setShow] = useState(true);
     return (
         <>
-        {/* <Bananas1 />
+            {/* <Bananas1 />
             <Orange />
             <Apples />
             <Jsx1 />
@@ -121,39 +124,53 @@ export default function App() {
 
                <Clock3 textColor ='red' bgColor='blue'/>
                 <FilterList/>
+                <UseRef/>
+                
+               <ClassTurundeComponentler/>  
+               <FonksiyonTurunde/>
+                  
+                 
              
-             */} 
-             <UseRef/>
+             */}
 
-            
-             
+             <Fetch/>
 
-           
-            
-             
-             
 
-             
 
-        
-             
-            
 
-             
 
-             
 
-             
 
-           
 
-            
 
-            
-               
-             
-   
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </>
     )
 };
