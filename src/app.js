@@ -37,6 +37,7 @@ import UseRef from './components/19-useref/useref';
 import ClassTurundeComponentler from './components/20-component-turleri/class-turunde-componentler';
 import FonksiyonTurunde from './components/20-component-turleri/fonksiyonturunde-componentler';
 import Fetch from './components/21-fetch/01-fetch';
+import Fetch2 from './components/21-fetch/02-fetch';
 
 
 const profileCardData = {
@@ -128,12 +129,14 @@ export default function App() {
                 
                <ClassTurundeComponentler/>  
                <FonksiyonTurunde/>
-                  
+                <Fetch/>  
                  
              
              */}
 
-             <Fetch/>
+             <Fetch2/>
+
+             
 
 
 
