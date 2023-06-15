@@ -38,6 +38,7 @@ import ClassTurundeComponentler from './components/20-component-turleri/class-tu
 import FonksiyonTurunde from './components/20-component-turleri/fonksiyonturunde-componentler';
 import Fetch from './components/21-fetch/01-fetch';
 import Fetch2 from './components/21-fetch/02-fetch';
+import Countries from './components/22-axios/countries';
 
 
 const profileCardData = {
@@ -129,12 +130,14 @@ export default function App() {
                 
                <ClassTurundeComponentler/>  
                <FonksiyonTurunde/>
-                <Fetch/>  
+                <Fetch/> 
+                <Fetch2/> 
                  
              
              */}
 
-             <Fetch2/>
+             <Countries/>
+             
 
              
 
