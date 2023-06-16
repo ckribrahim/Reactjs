@@ -30,7 +30,7 @@ import State from './components/13-usestate/01-state';
 import Counter1 from './components/14-counter-1.js/counter1';
 import Birthday from './components/15-birthday/birthday';
 import UseEffect from './components/16-useeffect/useeffect';
-import { Button } from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 import Clock3 from './components/17-digital-clock/clock-3';
 import FilterList from './components/18-filter-list/filter-list';
 import UseRef from './components/19-useref/useref';
@@ -39,6 +39,10 @@ import FonksiyonTurunde from './components/20-component-turleri/fonksiyonturunde
 import Fetch from './components/21-fetch/01-fetch';
 import Fetch2 from './components/21-fetch/02-fetch';
 import Countries from './components/22-axios/countries';
+import Parent from './components/23-lifting-state-up/parent';
+import Form1 from './components/24-form/01-form';
+import Form2 from './components/24-form/02-form2';
+import Form3 from './components/24-form/03-form3';
 
 
 const profileCardData = {
@@ -132,11 +136,19 @@ export default function App() {
                <FonksiyonTurunde/>
                 <Fetch/> 
                 <Fetch2/> 
+                <Countries/>
+                 <Parent/>
+                 <Form1/>
+                 <Form2/>
                  
              
              */}
 
-             <Countries/>
+             <Form3/>
+             
+            
+
+             
              
 
              
