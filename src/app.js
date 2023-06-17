@@ -43,6 +43,8 @@ import Parent from './components/23-lifting-state-up/parent';
 import Form1 from './components/24-form/01-form';
 import Form2 from './components/24-form/02-form2';
 import Form3 from './components/24-form/03-form3';
+import Form4 from './components/24-form/04-form';
+import Form5 from './components/24-form/05-form';
 
 
 const profileCardData = {
@@ -137,14 +139,22 @@ export default function App() {
                 <Fetch/> 
                 <Fetch2/> 
                 <Countries/>
-                 <Parent/>
-                 <Form1/>
-                 <Form2/>
+                <Parent/>
+                <Form1/>
+                <Form2/>
+                <Form3/>
+                <Form4/>
+                <Form5/>
                  
              
              */}
 
-             <Form3/>
+             
+            
+
+
+
+            
              
             
 
