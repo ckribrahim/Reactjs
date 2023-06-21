@@ -11,7 +11,7 @@ const Form5 = () => {
         gender: '',
         terms: false
     })
-
+        // Verileri tekrar cagirip guncellemek istedigimizde state'de tutabiliyoruz.
     const [errorFormData, setErrorFormData] = useState({
         firstName: false,
         lastName: false,

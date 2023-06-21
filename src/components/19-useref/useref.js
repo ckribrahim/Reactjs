@@ -13,7 +13,7 @@ const UseRef = () => {
         
     }
 
-    console.log("render")
+  
 
   return (
     <Container className='mt-5'>

@@ -1,9 +1,9 @@
-import { Sledding } from "@mui/icons-material";
+
 import { Component } from "react";
 import { Button, Container } from "react-bootstrap";
 
 
-class ClassTurundeComponentler extends Component {
+class ClaTurunde extends Component {
 
    
     constructor(props){
@@ -50,5 +50,5 @@ class ClassTurundeComponentler extends Component {
     }
 }
 
-export default ClassTurundeComponentler
+export default ClaTurunde
 
